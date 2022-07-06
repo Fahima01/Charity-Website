@@ -13,7 +13,7 @@
 .header{
     height: 100vh;
     width: 100%;
-    background: linear-gradient( rgba(47, 185, 239, 0.045),rgb(0, 0, 0)), url(./images/Volunteers-distribute-relief-materials.jpg);
+    background: linear-gradient( rgba(47, 185, 239, 0.045),rgb(0, 0, 0)), url(./images/1-ngo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -100,11 +100,16 @@ button{
     text-align: center;
 }
 
-.input-field .input-data #btn{
+.form-btn #Donate{
     margin-top: 20px;
     background-color: rgb(168, 99, 247);
     color: azure;
     cursor: pointer;
+    margin-left: 34%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
 
 }
 .counter{
@@ -341,7 +346,7 @@ form{
     width: 450px;
     max-width: 100%;
     font-family: inherit;
-    color: gray;
+    color: rgb(42, 42, 42);
     text-align: left;
     font-weight: 500;
     border-radius: 2px;
@@ -351,20 +356,45 @@ form{
     background: #F0F4EF;
 }
 
+.contact-box ::placeholder{
+    color: #9f9f9f;
+}
+
 #subscribe-button{
     width: 150px;
     max-width: 100%;
     font-family: inherit;
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-align: center;
     font-weight: 600;
-    border-radius: 0px 2px 2px 0px;
+    border-radius: 0px 3px 3px 0px;
     border: 0px;
     padding: 15px;
     font-size: 14px;
-    background: #a058f8;
+    background: #f85863;
     cursor: pointer;
 }
 
 
+
 /* <!-- ---------Footer section start----------------- --> */
+
+.footer{
+    height: 30vh;
+    background-color: #131321;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.footer-1 h1{
+    font-size: 30px; 
+    color: #ff5959;
+    font-style: italic;
+    font-family: Inter, sans-serif;
+}
+.footer-1 p{
+    color: rgb(203, 201, 201);
+    padding-top: 10px;
+}
