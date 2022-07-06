@@ -177,3 +177,104 @@ button{
     color: gray;
 }
 
+.donate-plan{
+    height: 100vh;
+    justify-content: center;
+}
+
+.plan-rows{
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.plan-rows h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.plan-rows p{
+    font-size: 14px;
+}
+.row-1 {
+    background-color: rgb(251, 195, 195);
+    padding: 40px 30px;
+    margin: 10px;
+}
+
+
+.row-2{
+    background-color: rgb(255, 253, 202);
+    padding: 40px 30px;
+    margin: 10px;
+}
+.row-3{
+    background-color: rgb(171, 251, 201);
+    padding: 40px 30px;
+    margin: 10px;
+}
+/* <!-- ---------Popular-Causes-start----------------- --> */
+
+.Causes-container{
+    height: 100vh;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.donate-heading{
+    margin-bottom: 60px;
+}
+.couse-main{
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.couse-main h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.couse-main p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.couse-main img{
+    height: 200px;
+    width: 300px;
+}
+.couse-main #btn{
+    background-color: rgb(168, 99, 247);
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    padding: 10px 15px;
+    margin-bottom: -15px;
+    font-weight: 800;
+    border-radius: 3px;
+
+
+}
+.sec-1 {
+    box-shadow: 0px 4px 32px 5px #D9CEC5;
+    padding: 40px 30px;
+    margin: 10px;
+}
+
+
+
+.sec-2{
+    box-shadow: 0px 4px 32px 5px #D9CEC5;
+    padding: 40px 30px;
+    margin: 10px;
+}
+.sec-3{
+    box-shadow: 0px 4px 32px 5px #D9CEC5;
+    padding: 40px 30px;
+    margin: 10px;}
